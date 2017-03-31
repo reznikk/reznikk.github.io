@@ -27,7 +27,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #f2849e !important;
+			border-color: #445ecb !important;
 		}
 
 		input[type="submit"].special,
@@ -69,5 +69,5 @@
 
 		#footer > .inner section:first-child {
 			margin-left: 0;
-			width: 40%;
+			width: 100%;
 		}
