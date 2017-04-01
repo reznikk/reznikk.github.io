@@ -69,15 +69,15 @@
 						<div class="inner">
 							<section>
 								<h2>Форма обратной связи</h2>
-								<form method="post" action="#">
+								<form method="post" id="form">
 									<div class="field half first">
-										<input type="text" name="name" id="name" placeholder="Имя" />
+										<input type="text" name="name" id="name" placeholder="Имя" required />
 									</div>
 									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" />
+										<input type="email" name="email" id="email" placeholder="Email" required />
 									</div>
 									<div class="field">
-										<textarea name="message" id="message" placeholder="Сообщение"></textarea>
+										<textarea name="text" id="message" placeholder="Сообщение" required></textarea>
 									</div>
 									<ul class="actions">
 										<li><input type="submit" value="Отправить" class="special" /></li>
@@ -103,6 +103,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="assets/js/form.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
